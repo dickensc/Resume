@@ -1,0 +1,274 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Graduate Curriculum Vitae
+% LaTeX Template
+% Version 1.2 (3/28/15)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Rensselaer Polytechnic Institute 
+% (http://www.rpi.edu/dept/arc/training/latex/resumes/)
+%
+% Modified by:
+% Daniel L Marks <xleafr@gmail.com> 3/28/2015
+%
+% Important note:
+% This template requires the res.cls file to be in the same directory as the
+% .tex file. The res.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%-------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%-------------------------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% You can have multiple style options the legal options ones are:
+%
+%   centered:	the name and address are centered at the top of the page 
+%				(default)
+%
+%   line:		the name is the left with a horizontal line then the address to
+%				the right
+%
+%   overlapped:	the section titles overlap the body text (default)
+%
+%   margin:		the section titles are to the left of the body text
+%		
+%   11pt:		use 11 point fonts instead of 10 point fonts
+%
+%   12pt:		use 12 point fonts instead of 10 point fonts
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[margin]{res}  
+
+% Default font is the helvetica postscript font
+\usepackage{helvet}
+
+% Increase text height
+\textheight=700pt
+
+\begin{document}
+
+%-------------------------------------------------------------------------------
+%	NAME AND ADDRESS SECTION
+%-------------------------------------------------------------------------------
+\name{Charles Dickens}
+
+% Note that addresses can be used for other contact information:
+% -phone numbers
+% -email addresses
+% -linked-in profile
+
+\address{Cell: (808)286-0540}
+\address{Email: charlieadickens@gmail.com}
+
+% Uncomment to add a third address
+%\address{Address 3 line 1\\Address 3 line 2\\Address 3 line 3}
+%-------------------------------------------------------------------------------
+
+\begin{resume}
+
+%-------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%-------------------------------------------------------------------------------
+\section{EDUCATION}
+\textbf{University of California Santa Cruz}, Santa Cruz, Ca.\\
+{\sl PhD.}, Computer Science
+\\
+\textbf{University of Hawaii}, Manoa, Hi\\
+{\sl B.S. with Summa Cum Laude}, \\ 
+Computer Engineering and Mathematics Minor, May 2019
+\hfill GPA: 
+3.93
+
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+%	EXPERIENCE SECTION
+%-------------------------------------------------------------------------------
+% Modify the format of each position
+\begin{format}
+\title{l}\employer{r}\\
+\dates{l}\location{r}\\
+\body\\
+\end{format}
+%-------------------------------------------------------------------------------
+
+\section{EXPERIENCE}
+\employer{UCSC}
+\location{Santa Cruz Ca.}
+\dates{September 2019 - Present}
+\title{\textbf{Teaching Assistant}}
+\begin{position}
+TA for UCSC CSE Introduction to Algorithms and Analysis
+\begin{itemize}
+\item Attended and presented lectures
+\item Prepared sample solutions to homework problems for graders
+\end{itemize}
+\end{position}
+
+\employer{Clari}
+\location{Sunnyvale Ca.}
+\dates{June 2019 - September 2019}
+\title{\textbf{Data Science Intern}}
+\begin{position}
+Researched methods and applications for a new sales opportunity similarity metric.
+\begin{itemize}
+\item Developed and verified methods for measuring the similarity between deals.
+\item Demonstrated applications of the metric to department executives.
+\item Created a roadmap for scalable implementation of the feature.
+\item Created a UI framework for future demos with REACT, SemanticUI, and D3.js.
+\end{itemize}
+\end{position}
+
+\employer{University Health Partners of Hawaii}
+\location{Honolulu Hi.}
+\dates{April 2019 - June 2019}
+\title{\textbf{Computer Engineer Intern}}
+\begin{position}
+Utilized H2O, MapR, and SQL to develop a pipeline for triaging documents for review. 
+\begin{itemize}
+\item Improved model performance by implementing procedures for hyperparameter optimization, model selection, and feature space dimension reduction.
+\item Developed scalable pipelines for prediction and training.
+\item Added functionality to extract human interpretable information as to why documents where marked for review . 
+\end{itemize}
+\end{position}
+
+\employer{Hawaii Data Science Institute}
+\location{Honolulu Hi.}
+\dates{June 2018 - June 2019}
+\title{\textbf{Data Science Fellow}}
+\begin{position}
+Contributed to data science products and applications across a range of disciplines.
+\begin{itemize}
+\item Wrote a course on data wrangling with Python and pandas using Jupyter. 
+\item Planned and led workshops on Data Science topics.
+\end{itemize}
+\end{position}
+
+\employer{Online Learning Academy}
+\location{Honolulu Hi.}
+\dates{December 2016 - August 2018}
+\title{\textbf{Math and Science Tutor}}
+\begin{position}
+Tutored STEM related courses from grade school up to the sophomore college level.
+\end{position}
+
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%-------------------------------------------------------------------------------
+\section{PROJECTS}
+\par
+\textbf{Developer:} CSDL: Open Power Quality: \\
+OPQ is an open source solution for distributed power quality data collection, analysis and visualization.
+\begin{itemize}
+\item First author of an accepted paper presented at The Ninth International Conference on Smart Grids, Green Communications and IT Energy-aware Technologies in Athens, Greece: IARIA ENERGY 2019.
+\item Developed plugins to classify frequency disturbances and transients using state of the art digital signal processing and machine learning techniques.
+\end{itemize}
+
+\par
+\textbf{Co-PI:} UH Big Data Lab and CSOI: The Polarization of Information:\\
+How can we develop a graphical representation of related text based information found on the web? With this model, how can we measure the polarity between different schools of thought?
+\begin{itemize}
+\item Built scrapers to find relevant sources and utilized Social Network APIs to collect and store data in a MySQL database.
+\item Implemented novel machine algorithms to model the data and identify clusters.
+\item Project funded by the NSF Center for Science of Information.
+\item On-boarded a team of 4 researchers from various Universities.
+\end{itemize}
+
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%-------------------------------------------------------------------------------
+\section{COMPUTER\\SKILLS}
+
+\textbf{Languages}: Python, R, C, C++, Java, Matlab, SQL, \LaTeX.
+\\
+\textbf{Web}: HTML, JavaScript, MongoDB, Meteor, React, Semantic UI
+\\
+\textbf{Applications}: Vi/Vim, JetBrains IDEs, Git/GitHub, VirtualBox
+
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+% Volunteer and non-Profit Work
+%-------------------------------------------------------------------------------
+% Modify the format of each position
+\begin{format}
+\title{l}\employer{r}\\
+\dates{l}\location{r}\\
+\body\\
+\end{format}
+%-------------------------------------------------------------------------------
+
+\section{VOLUNTEER and NON-PROFIT WORK}
+\employer{IEEE Infocom}
+\location{Honolulu Hi.}
+\dates{2018}
+\title{\textbf{Student Volunteer}}
+\begin{position}
+Aided presenters and event organizers at the IEEE Infocom conference.
+\end{position}
+
+\employer{UHM COE}
+\location{Honolulu Hi.}
+\dates{Jun 2017 - August 2017}
+\title{\textbf{Mentor}}
+\begin{position}
+Taught students fundamentals data science skills and guided them through a project over the 6-week course.
+\end{position}
+
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+% Trainings and Workshops
+%-------------------------------------------------------------------------------
+% Modify the format of each position
+\begin{format}
+\title{l}\employer{r}\\
+\dates{l}\location{r}\\
+\body\\
+\end{format}
+%-------------------------------------------------------------------------------
+
+\section{TRAININGS and WORKSHOPS}
+\employer{Intelligent Systems for Geosciences}
+\location{UH Hilo}
+\dates{August 2018}
+\title{\textbf{Researcher}}
+\begin{position}
+Worked with domain scientists to develop sensors and propose new directions for research and collaboration.
+\begin{itemize}
+\item Built a dual spectrum imaging sensor using a Raspberry Pi to periodically capture photos of the active fissure. Stored the data on AWS cloud storage.
+\end{itemize}
+\end{position}
+
+\employer{Data Science and Interdisciplinary Teams}
+\location{Purdue University}
+\dates{June 2018}
+\title{\textbf{Team Leader}}
+\begin{position}
+Invited as team leader for a group of 5 students from Universities across the country and at levels ranging from Undergraduate to PhD candidates.
+\end{position}
+
+%-------------------------------------------------------------------------------
+%Awards
+%-------------------------------------------------------------------------------
+\section{AWARDS}
+
+\textbf{UCSC Regents Fellowship}
+\\
+\textbf{NSF CSoI Channels Scholar REU Award}
+\\
+\textbf{Dean’s List 10 Semesters}
+
+
+\end{resume}
+\end{document}
